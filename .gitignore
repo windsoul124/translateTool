@@ -20,6 +20,7 @@ parts/
 sdist/
 var/
 wheels/
+company/
 pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
@@ -67,7 +68,7 @@ instance/
 
 # Scrapy stuff:
 .scrapy
-
+translateExcel/spiders/translate.py
 # Sphinx documentation
 docs/_build/
 
