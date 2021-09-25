@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import ttk
+from googletrans import Translator
 class Translate:
+
     def __init__(self):
         self.window = tk.Tk()
         self.window.title('翻译器')
@@ -33,6 +35,9 @@ class Translate:
 
 
 if __name__ == '__main__':
-    t = Translate()
-    t.gui_arrange()
-    tk.mainloop()
+    # t = Translate()
+    # t.gui_arrange()
+    translator = Translator()
+    str = translator.detect('Ẩm thực, làm đẹp, deal sốc, hoàn tiền')
+    print(str)
+    # tk.mainloop()
